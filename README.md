@@ -60,6 +60,7 @@ $image->save('images/rose-dreamy.jpg');
 * Boost
 * Dreamy
 * Sepia
+* SynCity
 
 ## Special thanks
 
