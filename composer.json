@@ -3,7 +3,6 @@
     "description": "Set of filter for image processing",
     "type": "library",
     "license": "GPL3",
-    "minimum-stability": "stable",
     "require": {
         "intervention/image": "^2.3"
     },
