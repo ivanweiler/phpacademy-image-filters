@@ -2,7 +2,7 @@
 
 namespace PhpAcademy\Image\Filters;
 
-class DreamyFilter implements FilterInterface
+class DreamyFilter implements \Intervention\Image\Filters\FilterInterface
 {
     use OverlayTrait;
 
