@@ -62,6 +62,8 @@ $image->save('images/rose-dreamy.jpg');
 * Sepia
 * SynCity
 
+You can preview filter effects [here](https://drive.google.com/open?id=0B2uWF9fZWrLsaXhzam1uNWR4UEU).
+
 ## Special thanks
 
 Filters are based on following repository:
