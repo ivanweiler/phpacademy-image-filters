@@ -4,11 +4,15 @@
 
 To use this library, go to your composer project. From there, add new repository to composer config:
 
-```composer config repositories.inchoostripe git git@github.com:ivanweiler/phpacademy-image-filters.git```
+```sh
+composer config repositories.inchoostripe git git@github.com:ivanweiler/phpacademy-image-filters.git
+```
 
 Afterwarrds, you can require composer package
 
-```composer require php-academy/filters:dev-master```
+```sh
+composer require php-academy/filters:dev-master
+```
 
 ## Usage
 
