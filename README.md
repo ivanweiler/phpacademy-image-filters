@@ -16,7 +16,7 @@ composer require php-academy/filters:dev-master
 
 ## Usage
 
-Here is an short example on how to use the library:
+In order to apply filter just for output, you can use following:
 
 ```php
 <?php
@@ -30,6 +30,22 @@ use PhpAcademy\Image\Filters;
 $image = Image::make('images/rose.jpg');
 $image->filter(new Filters\SepiaFilter());
 echo $image->response('jpg', 100);
+```
+
+In order to save image to disk, you can do following:
+
+```php
+<?php
+
+require 'vendor/autoload.php';
+
+use Intervention\Image\ImageManagerStatic as Image;
+use PhpAcademy\Image\Filters;
+
+
+$image = Image::make('images/rose.jpg');
+$image->filter(new Filters\SepiaFilter());
+$image->save('images/rose-dreamy.jpg');
 ```
 
 ## Available filters
