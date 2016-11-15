@@ -5,7 +5,7 @@
 To use this library, go to your composer project. From there, add new repository to composer config:
 
 ```sh
-composer config repositories.inchoostripe git git@github.com:ivanweiler/phpacademy-image-filters.git
+composer config repositories.inchoostripe git https://github.com/ivanweiler/phpacademy-image-filters.git
 ```
 
 Afterwarrds, you can require composer package
