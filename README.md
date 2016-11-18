@@ -69,3 +69,7 @@ You can preview filter effects [here](https://drive.google.com/open?id=0B2uWF9fZ
 Filters are based on following repository:
 
 https://github.com/marchibbins/GD-Filter-testing
+
+Filters are just addon to great Intervention Image library:
+
+http://image.intervention.io/ 
